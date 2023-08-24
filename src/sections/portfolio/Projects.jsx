@@ -1,0 +1,15 @@
+import Project from "./Project"
+
+function Projects({projects}) {
+  return (
+    <div className="portfolio__projects">
+      {
+        projects.map(project => {
+          return <Project key={project.id} project={project} />
+        })
+      }
+    </div>
+  )
+}
+
+export default Projects

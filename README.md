@@ -14,8 +14,8 @@ O portfólio foi construído utilizando as seguintes tecnologias:
 
 ## Como Executar o Projeto
 
-1. Clone o repositório: `git clone https://github.com/MessiasOli/react-portifolio.git`
-2. Entre no diretório: `cd seuportifolio`
+1. Clone o repositório: `git clone https://github.com/MessiasOli/react-portfolio.git`
+2. Entre no diretório: `cd seuportfolio`
 3. Instale as dependências: `npm install`
 4. Inicie o servidor de desenvolvimento: `npm start`
 5. Abra o navegador e navegue para `http://localhost:3000`
