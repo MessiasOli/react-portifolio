@@ -40,8 +40,9 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
-  font-size: 14.4px;
+  font-size: 0.9rem;
 }
+
 
 /* GENERAL CONTAINER CLASS */
 .container {
@@ -51,7 +52,6 @@ body {
 }
 
 /* GENERAL SECTION STYLES */
-
 section {
   padding: 10rem 0;
   background: var(--color-light);
@@ -61,7 +61,6 @@ section {
 section:nth-child(even) {
   background: var(--color-white);
 }
-
 
 section > h2 {
   text-align: center;
@@ -73,7 +72,8 @@ section > p {
   width: 40%;
 }
 
-/* GERNERAL SECTION STYLES */
+
+/* GENERAL SECTION STYLES */
 a {
   color: var(--color-white);
   transition: var(--transition);
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-black);
 }
 
-h1 { 
+h1 {
   font-size: 3rem;
 }
 
@@ -110,7 +110,7 @@ h6 {
 }
 
 /* GENERAL IMAGES STYLES */
-.img {
+img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -123,7 +123,8 @@ h6 {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: var(--color-white);
+  background: var(--color-light);
+  color: var(--color-black);
   padding: 0.6rem 2.5rem;
   border: 2px solid transparent;
   border-radius: var(--border-radius-2);
@@ -147,7 +148,7 @@ h6 {
 
 .btn.primary {
   background: var(--color-primary);
-  /* text color alwais white that's why i didn't use a variable color */
+  /* text color always white that's why i didn't use a variable color */
   color: white;
 }
 
@@ -160,6 +161,8 @@ h6 {
 .btn.sm {
   padding: 0.5rem 1.2rem;
 }
+
+
 
 
 /* MEDIA QUERIES (tablets) */
