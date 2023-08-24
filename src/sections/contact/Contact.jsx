@@ -2,8 +2,8 @@ import './contact.css'
 
 function Contact() {
   return (
-    <section id="section">
-
+    <section id="contact">
+      <h2>Contato</h2>
     </section>
   )
 }
