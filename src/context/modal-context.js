@@ -1,0 +1,24 @@
+import { createContext, useContext, useState } from "react";
+
+const ModalContext = createContext();
+
+export function ModalProvaide({children}) {
+  const [showModal, setShowModal] = useState(false)
+
+  const showModalHandler = () => {
+    setShowModal(true);
+  }
+
+  const closeModalHandler = () => {
+    setShowModal(false);
+  }
+  return  <ModalContext.Provider value={{showModal, showModalHandler, closeModalHandler}}>
+            {children}
+          </ModalContext.Provider>
+}
+
+
+// custom hook to consume the modal context anywhere in out app
+export const useModalContext = () => {
+  return useContext(ModalContext)
+}
