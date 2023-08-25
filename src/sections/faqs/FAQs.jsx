@@ -1,9 +1,21 @@
+import FAQ from "./FAQ"
+import faqs from "./data"
 import './faqs.css'
 
 function FAQs() {
   return (
     <section id="facts">
-      <h2>Contacts</h2>
+      <h2>Frequently Asked Questions</h2>
+      <p>
+        Here are some questions I usuallly get. Click to toggle the answer, and if you still have some more questions, shoot me a message from the contact section!
+      </p>
+      <div className="container faqs__container">
+        {
+          faqs.map(faq => (
+            <FAQ key={faq.id} faq={faq}/>
+          ))
+        }
+      </div>
     </section>
   )
 }
