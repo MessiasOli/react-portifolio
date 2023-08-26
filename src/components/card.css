@@ -3,7 +3,7 @@
   padding: 1.5rem;
   border: 2px solid transparent;
   border-radius: var(--border-radius-1);
-  transition: var(--transaction);
+  transition: var(--transition);
 }
 
 .card:hover {
@@ -21,9 +21,10 @@
   border-color: var(--color-light);
 }
 
-/* MEDIA QUERIE (phone) */
+
+/* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
-  .card{
-    padding: 1.2rem;
+  .card {
+      padding: 1.2rem;
   }
 }
