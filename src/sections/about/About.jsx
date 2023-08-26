@@ -11,7 +11,7 @@ function About() {
     <section id="about">
       <div className="container about__container">
         <div className="about__left">
-          <div className="about__portrait">
+          <div className="about__portrait" data-aos="fade-in">
             <img src={AboutImage} alt="" />
           </div>
         </div>

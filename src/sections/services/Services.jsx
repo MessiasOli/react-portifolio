@@ -7,7 +7,7 @@ function Services() {
     <section id="services">
       <h2>My Service</h2>
       <p>I give you the best in all the serveces below</p>
-      <div className="container service__container">
+      <div className="container service__container" data-aos="fade-up">
         {
           data.map(item => (
             <Card key={item.id} className="service light">
